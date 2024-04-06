@@ -7,19 +7,73 @@
     font-optical-sizing: auto;
     font-weight: 450;
     font-style: normal;
+    background-color: #fefefe;
 }
 
 #title{
     text-align: center;
     padding: 10px 0px;
+    text-decoration: underline;
+    font-size: 35px;
+    color:#A40606
 }
 /* Side Panel */
 #topbar{
-    border: 1px solid black;
+    border-bottom: 2px solid black;
     position: relative;
-    padding:5px;
+    padding:10px;
     text-align: center;
 }
 #topbar > a {
     margin:37px;
+    text-decoration: none;
+    font-size: 20px;
+    color:black;
+    transition: text-shadow 0.1s ease-in;
+}
+#topbar > a:hover{
+    text-decoration: underline;
+    text-shadow: 0px 0px 5px rgb(82, 82, 82);
+    transition: text-shadow 0.1s ease-in;
+}
+
+/* Selection */
+#selection{
+    /* border:1px solid black; */
+    text-align: center;
+    padding:10px;
+    margin-top:15px;
+}
+#gender{
+    border-bottom: 2px solid rgb(54, 54, 54);
+    padding:5px;
+    margin-right:20px;
+}
+#firstLetter{
+    border-bottom: 2px solid rgb(54, 54, 54);
+    padding:5px;
+    margin-right:20px;
+}
+
+#displayName{
+    margin:40px 0 30px 0;
+    text-align: center;
+}
+
+/* Generate name */
+#generateName{
+    display: block;
+    padding:10px;
+    margin: auto;
+    transition: box-shadow 0.19s ease-out;
+    width:auto;
+    font-size: 25px;
+    border-radius: 6%;
+    background-color: none;
+    color:#A40606
+}
+#generateName:hover{
+    cursor: pointer;
+    box-shadow: 0px 1px 4px black;
+    transition: box-shadow 0.15s ease-in;
 }
