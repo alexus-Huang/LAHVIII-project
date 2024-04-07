@@ -12,29 +12,11 @@
 
 #title{
     text-align: center;
-    padding: 10px 0px;
+    padding: 15px 0px;
     text-decoration: underline;
     font-size: 35px;
-    color:#A40606
-}
-/* Side Panel */
-#topbar{
-    border-bottom: 2px solid black;
-    position: relative;
-    padding:10px;
-    text-align: center;
-}
-#topbar > a {
-    margin:37px;
-    text-decoration: none;
-    font-size: 20px;
-    color:black;
-    transition: text-shadow 0.1s ease-in;
-}
-#topbar > a:hover{
-    text-decoration: underline;
-    text-shadow: 0px 0px 5px rgb(82, 82, 82);
-    transition: text-shadow 0.1s ease-in;
+    color:#A40606;
+    border-bottom:2px solid black;
 }
 
 /* Selection */
